@@ -8,8 +8,8 @@ import sys
 import os
  
 DYNAMODB = boto3.resource('dynamodb')
-TABLE = "table"
-QUEUE = "producer"
+TABLE = "country-covid"
+QUEUE = "final_project"
 SQS = boto3.client("sqs")
  
 # SETUP LOGGING
