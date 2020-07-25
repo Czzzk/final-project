@@ -1,0 +1,6 @@
+ikp3db==1.1.4
+pandas
+python-json-logger
+wikipedia
+boto3
+ipython
